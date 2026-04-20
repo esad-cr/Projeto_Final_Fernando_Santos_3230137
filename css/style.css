@@ -88,7 +88,7 @@ iframe, video {
 
 /**************************************************
 ***************************************************
-*** Tipografia para mobile ***
+************ Tipografia para mobile ***************
 ***************************************************
 ***************************************************/
 body{
@@ -98,16 +98,45 @@ body{
 
 h1, h4, h5, h6{
     font-family: Inter, sans-serif;
-    font-size: 48px;
+    font-size: 28px;
 }
 
 h2{
     font-family: Inter, sans-serif;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 h3{
     font-family: Inter, sans-serif;
-    font-size: 28px;
+    font-size: 20px;
+
+}
+
+/**************************************************
+***************************************************
+************Tipografia para Desktop ***************
+***************************************************
+***************************************************/
+
+@media (min-width: 992px){
+
+    h1{
+     font-size: 48px;
+
+    }
+
+    h2{
+     font-size: 36px;
+    }
+
+    h3{
+
+     font-size: 28px;
+
+    }
+
+    body{
+    font-size: 18px;
+    }
 
 }
